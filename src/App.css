@@ -35,14 +35,32 @@ body {
   overflow: scroll;
 }
 
+.acc-text {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.acc-text {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
 .project-box{
   height: 100%;
   width: 100%;
   box-shadow: 9px 9px 0px black !important;
   border-radius: 0.5em;
   outline: 3.5px solid black;
-  font-family: 'Archivo Narrow', sans-serif !important;
   overflow: scroll;
+}
+
+.project-text{
+  font-family: 'Archivo Narrow', sans-serif !important;
+  font-size: 1.3em;
 }
 
 .project-container{
@@ -84,7 +102,9 @@ img{
   }
 
   .body-box{
-    margin-left: auto;
+    margin-left: 1em;
+    padding: 1em;
+    
   }
   .left-container {
       align-items: center;

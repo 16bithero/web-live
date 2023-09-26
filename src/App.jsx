@@ -9,10 +9,20 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import Skills from './Skills';
 import Projects from './Projects';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 
 function App() {
+
+  const isMobile = useMediaQuery('(max-width: 900px)');
+  
+  const customFont = {
+    fontFamily: 'Archivo Narrow, sans-serif',
+    fontWeight: 'bold',
+    fontSize: isMobile? '.9em': '1em',
+    color: 'black',
+  };
 
   const [value, setValue] = React.useState('1');
 
@@ -28,16 +38,16 @@ function App() {
             <div className='body-box'>
               <TabContext value={value}>
                 <Box>
-                  <TabList onChange={handleChange} aria-label="lab API tabs example" variant='fullWidth'>
-                    <Tab label="About" value="1" />
-                    <Tab label="Skills" value="2" />
-                    <Tab label="Projects" value="3" />
-                    <Tab label="Contact" value="4" />
+                  <TabList TabIndicatorProps={{style: {background:'black'}}} onChange={handleChange} aria-label="tabs" variant="scrollable" allowScrollButtonsMobile>
+                    <Tab label="About" value="1" style={customFont} />
+                    <Tab label="Skills" value="2" style={customFont} />
+                    <Tab label="Projects" value="3" style={customFont} />
+                    <Tab label="Contact" value="4" style={customFont} />
                   </TabList>
                 </Box>
                 <TabPanel value="1">
                   <h1>Hi, I'm Renzzi.</h1>
-                  <h2>an aspiring web developer based in Toronto, Ontario.</h2>
+                  <h2>an aspiring web developer based in Toronto, Ontario. I build apps and currently learning advanced React and other frameworks.</h2>
 
                 </TabPanel>
                 <TabPanel value="2"><Skills /></TabPanel>

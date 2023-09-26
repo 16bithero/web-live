@@ -16,46 +16,42 @@ export default function Projects() {
     return (
         <>
         <div className='project-container'>
-            <Card className='project-box' style={{backgroundColor: "#8e48ff"}}>
+            <Card className='project-box' style={{backgroundColor: "#3d42b4", color:"white"}}>
                 <CardMedia
                     sx={{ height: 140 }}
                     image="../src/Cosmic.png"
                     title="cosmic"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Cosmic
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                <h1 className='project-text'>Cosmic</h1>
+                    <Typography variant="body2" color="white">
                         A web app that supports booking
                         management, scheduling, service offerings, and messaging for businesses. Connects to Cosmic Mobile App
                         to manage services booked by customers.
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">View Project</Button>
+                <Button size="small" variant="contained" style={{color: "#683f2a", backgroundColor: 'white'}}>View Project</Button>
                 </CardActions>
             </Card>
         </div>
         <div className='project-container'>
-            <Card className='project-box' style={{backgroundColor: "#fcfd96"}}>
+            <Card className='project-box' style={{backgroundColor: "#3d42b4", color:"white"}}>
                 <CardMedia
                     sx={{ height: 140 }}
                     image="../src/Cosmic.png"
                     title="cosmic"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        Kape-Kape
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                <h1 className='project-text'>Kape-Kape</h1>
+                    <Typography variant="body2" color="white">
                         A web app that supports booking
                         management, scheduling, service offerings, and messaging for businesses. Connects to Cosmic Mobile App
                         to manage services booked by customers.
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">View Project</Button>
+                <Button size="small" variant="contained" style={{color: "#683f2a", backgroundColor: 'white'}}>View Project</Button>
                 </CardActions>
             </Card>
         </div>

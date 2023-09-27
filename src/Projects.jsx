@@ -18,41 +18,39 @@ export default function Projects() {
         <div className='project-container'>
             <Card className='project-box' style={{backgroundColor: "#3d42b4", color:"white"}}>
                 <CardMedia
-                    sx={{ height: 140 }}
+                    sx={{ height: 120 }}
                     image="../src/Cosmic.png"
                     title="cosmic"
                 />
                 <CardContent>
                 <h1 className='project-text'>Cosmic</h1>
-                    <Typography variant="body2" color="white">
+                <h1 className='proj-desc'>
                         A web app that supports booking
                         management, scheduling, service offerings, and messaging for businesses. Connects to Cosmic Mobile App
                         to manage services booked by customers.
-                    </Typography>
+                    </h1>
+                    <br />
+                    <Button size="small" variant="contained" style={{color: "#3d42b4", backgroundColor: 'white'}}>View Project</Button>
                 </CardContent>
-                <CardActions>
-                <Button size="small" variant="contained" style={{color: "#683f2a", backgroundColor: 'white'}}>View Project</Button>
-                </CardActions>
             </Card>
         </div>
         <div className='project-container'>
             <Card className='project-box' style={{backgroundColor: "#3d42b4", color:"white"}}>
                 <CardMedia
-                    sx={{ height: 140 }}
+                    sx={{ height: 120 }}
                     image="../src/Cosmic.png"
                     title="cosmic"
                 />
                 <CardContent>
                 <h1 className='project-text'>Kape-Kape</h1>
-                    <Typography variant="body2" color="white">
+                <h1 className='proj-desc'>
                         A web app that supports booking
                         management, scheduling, service offerings, and messaging for businesses. Connects to Cosmic Mobile App
                         to manage services booked by customers.
-                    </Typography>
+                    </h1>
+                    <br />
+                    <Button size="small" variant="contained" style={{color: "#3d42b4", backgroundColor: 'white'}}>View Project</Button>
                 </CardContent>
-                <CardActions>
-                <Button size="small" variant="contained" style={{color: "#683f2a", backgroundColor: 'white'}}>View Project</Button>
-                </CardActions>
             </Card>
         </div>
         <div>

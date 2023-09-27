@@ -36,17 +36,23 @@ body {
 }
 
 .acc-text {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Archivo Narrow', sans-serif;
   font-weight: 700;
   font-size: 1.5em;
   font-style: italic;
 }
 
-.acc-text {
+.acc-desc {
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 700;
-  font-size: 1.5em;
-  font-style: italic;
+  font-size: large;
+  font-weight: 500;
+}
+
+.proj-desc {
+  font-family: 'Fira Sans', sans-serif;
+  font-size:large;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 .project-box{

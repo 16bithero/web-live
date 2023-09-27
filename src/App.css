@@ -134,6 +134,7 @@ img {
   }
 
   .body-box {
+    margin-top: -4em;
     margin-left: 1em;
     padding: 1em;
 
@@ -147,13 +148,14 @@ img {
   }
 
   .left-container .body-box {
-    width: 70vw;
+    width: 75vw;
   }
 
   .right-container {
     align-items: center;
     justify-content: center;
-    height: 30vh;
+    margin-top: 1em;
+    height: 25vh;
     width: 100vw;
   }
 

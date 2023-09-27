@@ -45,7 +45,7 @@ body {
 .acc-desc {
   font-family: 'Fira Sans', sans-serif;
   font-size: large;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .proj-desc {
@@ -53,6 +53,19 @@ body {
   font-size:large;
   font-weight: 400;
   margin-bottom: 0;
+}
+
+.button-box {
+  box-shadow: 5px 5px 0px black;
+  border-radius: 0.5em;
+  outline: 5px solid black;
+  font-weight: bold !important;
+  transition: transform 0s ease, box-shadow 0.4s ease;
+}
+
+.button-box:hover {
+  transform: translate(-3px, -3px); /* Move 3 pixels to the left and 3 pixels up */
+  box-shadow: 8px 8px 0px black; /* Thicker shadow, but the position remains unchanged */
 }
 
 .project-box{
@@ -64,9 +77,21 @@ body {
   overflow: scroll;
 }
 
+.contact-box{
+  height: 100%;
+  width: 100%;
+  box-shadow: 6px 6px 0px black !important;
+  border-radius: 0.5em;
+  outline: 3px solid black;
+  overflow: scroll;
+  background-color: whitesmoke;
+  margin-bottom: 0.3em;
+}
+
 .project-text{
   font-family: 'Archivo Narrow', sans-serif !important;
   font-size: 1.3em;
+  margin-top: 0;
 }
 
 .project-container{

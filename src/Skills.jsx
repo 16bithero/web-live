@@ -17,7 +17,7 @@ export default function Skills() {
             <Accordion
                 expanded={expandedAccordion === 'panel1'}
                 onChange={handleChange('panel1')}
-                style={{ backgroundColor: "#4192f0", boxShadow: "5px 5px 0 black", marginBottom: "1em" }}
+                style={{ backgroundColor: "#3d42b3", boxShadow: "8px 8px 0 black", marginBottom: "1em" }}
             >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"
@@ -28,7 +28,7 @@ export default function Skills() {
             <Accordion
                 expanded={expandedAccordion === 'panel2'}
                 onChange={handleChange('panel2')}
-                style={{ backgroundColor: "#4192f0", boxShadow: "5px 5px 0 black", marginBottom: "1em" }}
+                style={{ backgroundColor: "#3d42b3", boxShadow: "8px 8px 0 black", marginBottom: "1em" }}
             >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
@@ -39,7 +39,7 @@ export default function Skills() {
             <Accordion
                 expanded={expandedAccordion === 'panel3'}
                 onChange={handleChange('panel3')}
-                style={{ backgroundColor: "#4192f0", boxShadow: "5px 5px 0 black", marginBottom: "1em" }}
+                style={{ backgroundColor: "#3d42b3", boxShadow: "8px 8px 0 black", marginBottom: "1em" }}
             >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel3a-content"

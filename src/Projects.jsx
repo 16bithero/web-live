@@ -15,47 +15,46 @@ export default function Projects() {
 
     return (
         <>
-        <div className='project-container'>
-            <Card className='project-box' style={{backgroundColor: "#3d42b4", color:"white"}}>
-                <CardMedia
-                    sx={{ height: 120 }}
-                    image="../src/Cosmic.png"
-                    title="cosmic"
-                />
-                <CardContent>
-                <h1 className='project-text'>Cosmic</h1>
-                <h1 className='proj-desc'>
-                        A web app that supports booking
-                        management, scheduling, service offerings, and messaging for businesses. Connects to Cosmic Mobile App
-                        to manage services booked by customers.
-                    </h1>
-                    <br />
-                    <Button size="small" variant="contained" style={{color: "#3d42b4", backgroundColor: 'white'}}>View Project</Button>
-                </CardContent>
-            </Card>
-        </div>
-        <div className='project-container'>
-            <Card className='project-box' style={{backgroundColor: "#3d42b4", color:"white"}}>
-                <CardMedia
-                    sx={{ height: 120 }}
-                    image="../src/Cosmic.png"
-                    title="cosmic"
-                />
-                <CardContent>
-                <h1 className='project-text'>Kape-Kape</h1>
-                <h1 className='proj-desc'>
-                        A web app that supports booking
-                        management, scheduling, service offerings, and messaging for businesses. Connects to Cosmic Mobile App
-                        to manage services booked by customers.
-                    </h1>
-                    <br />
-                    <Button size="small" variant="contained" style={{color: "#3d42b4", backgroundColor: 'white'}}>View Project</Button>
-                </CardContent>
-            </Card>
-        </div>
-        <div>
-        <h4 style={{textAlign: "center", margin: "0"}}>Older projects will be featured soon...</h4>
-        </div>
+            <div className='project-container'>
+                <Card className='project-box' style={{ backgroundColor: "#3d42b4", color: "white" }}>
+                    <CardMedia
+                        sx={{ height: 120 }}
+                        image="../src/Cosmic.png"
+                        title="cosmic"
+                    />
+                    <CardContent>
+                        <h1 className='project-text'>Cosmic</h1>
+                        <h1 className='proj-desc'>
+                            A web app that supports booking
+                            management, scheduling, service offerings, and messaging for businesses. Connects to Cosmic Mobile App
+                            to manage services booked by customers.
+                        </h1>
+                        <br />
+                        <Button className='button-box' style={{ backgroundColor: '#ffe054', color: "black" }}>View Project</Button>
+                    </CardContent>
+                </Card>
+            </div>
+            <div className='project-container'>
+                <Card className='project-box' style={{ backgroundColor: "#3d42b4", color: "white" }}>
+                    <CardMedia
+                        sx={{ height: 120 }}
+                        image="../src/Cosmic.png"
+                        title="cosmic"
+                    />
+                    <CardContent>
+                        <h1 className='project-text'>Kape-Kape</h1>
+                        <h1 className='proj-desc'>
+                        Kape Kape is a web based digital business card. 
+                        It enables users to showcase their contact information and relevant links, conveniently shareable through a unique QR code.
+                        </h1>
+                        <br />
+                        <Button className='button-box' style={{ backgroundColor: '#ffe054', color: "black" }}>View Project</Button>
+                    </CardContent>
+                </Card>
+            </div>
+            <div>
+                <h4 style={{ textAlign: "center", margin: "0" }}>Older projects will be featured soon...</h4>
+            </div>
         </>
     )
 }

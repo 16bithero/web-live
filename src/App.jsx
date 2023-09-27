@@ -10,6 +10,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import Skills from './Skills';
 import Projects from './Projects';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import Contact from './Contact';
 
 
 
@@ -54,7 +55,7 @@ function App() {
                 <TabPanel value="3">
                  <Projects />
                 </TabPanel>
-                <TabPanel value="4">Item Four</TabPanel>
+                <TabPanel value="4"><Contact/></TabPanel>
               </TabContext>
             </div>
           </div>

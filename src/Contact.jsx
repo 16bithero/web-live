@@ -119,7 +119,7 @@ export default function Contact() {
                 message={
                     <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'nowrap' }}>
                         <img
-                            src="../src/gmail.png"
+                            src="./gmail.png"
                             alt="Gmail"
                             style={{ marginRight: '16px'}}
                         />

@@ -19,7 +19,7 @@ export default function Projects() {
                 <Card className='project-box' style={{ backgroundColor: "#3d42b4", color: "white" }}>
                     <CardMedia
                         sx={{ height: 120 }}
-                        image="../src/Cosmic.png"
+                        image="./Cosmic.png"
                         title="cosmic"
                     />
                     <CardContent>
@@ -42,7 +42,7 @@ export default function Projects() {
                 <Card className='project-box' style={{ backgroundColor: "#3d42b4", color: "white" }}>
                     <CardMedia
                         sx={{ height: 120 }}
-                        image="../src/Cosmic.png"
+                        image="./Cosmic.png"
                         title="cosmic"
                     />
                     <CardContent>

@@ -30,7 +30,11 @@ export default function Projects() {
                             to manage services booked by customers.
                         </h1>
                         <br />
-                        <Button className='button-box' style={{ backgroundColor: '#ffe054', color: "black" }}>View Project</Button>
+                        <a href="https://16bithero.github.io/cosmic-web/" target="_blank" rel="noopener noreferrer">
+                            <Button className='button-box' style={{ backgroundColor: '#ffe054', color: 'black' }}>
+                                View Project
+                            </Button>
+                        </a>
                     </CardContent>
                 </Card>
             </div>
@@ -44,8 +48,8 @@ export default function Projects() {
                     <CardContent>
                         <h1 className='project-text'>Kape-Kape</h1>
                         <h1 className='proj-desc'>
-                        Kape Kape is a web based digital business card. 
-                        It enables users to showcase their contact information and relevant links, conveniently shareable through a unique QR code.
+                            Kape Kape is a web based digital business card.
+                            It enables users to showcase their contact information and relevant links, conveniently shareable through a unique QR code.
                         </h1>
                         <br />
                         <Button className='button-box' style={{ backgroundColor: '#ffe054', color: "black" }}>View Project</Button>

@@ -48,11 +48,11 @@ export default function Projects() {
                     <CardContent>
                         <h1 className='project-text'>Kape-Kape</h1>
                         <h1 className='proj-desc'>
-                            Kape Kape is a web based digital business card.
+                            Kape-Kape is a web based digital business card app.
                             It enables users to showcase their contact information and relevant links, conveniently shareable through a unique QR code.
                         </h1>
                         <br />
-                        <Button className='button-box' style={{ backgroundColor: '#ffe054', color: "black" }}>View Project</Button>
+                        <Button className='button-box' style={{ backgroundColor: 'orange', color: "black" }}>Launching Soon</Button>
                     </CardContent>
                 </Card>
             </div>

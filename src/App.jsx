@@ -11,17 +11,19 @@ import Skills from './Skills';
 import Projects from './Projects';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Contact from './Contact';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 
 function App() {
 
   const isMobile = useMediaQuery('(max-width: 900px)');
-  
+
   const customFont = {
     fontFamily: 'Archivo Narrow, sans-serif',
     fontWeight: 'bold',
-    fontSize: isMobile? '.9em': '1em',
+    fontSize: isMobile ? '.9em' : '1em',
     color: 'black',
   };
 
@@ -39,7 +41,7 @@ function App() {
             <div className='body-box'>
               <TabContext value={value}>
                 <Box>
-                  <TabList TabIndicatorProps={{style: {background:'black'}}} onChange={handleChange} aria-label="tabs" variant="scrollable" allowScrollButtonsMobile>
+                  <TabList TabIndicatorProps={{ style: { background: 'black' } }} onChange={handleChange} aria-label="tabs" variant="scrollable" allowScrollButtonsMobile>
                     <Tab label="About" value="1" style={customFont} />
                     <Tab label="Skills" value="2" style={customFont} />
                     <Tab label="Projects" value="3" style={customFont} />
@@ -49,13 +51,16 @@ function App() {
                 <TabPanel value="1">
                   <h1>Hi, I'm Renzzi.</h1>
                   <h2>an aspiring web developer based in Toronto, Ontario. I build apps and currently learning advanced React and other frameworks.</h2>
-
+                  <a href="https://github.com/16bithero" style={{ marginRight: '1em',color: '3d42b3'}}> <FontAwesomeIcon icon={faGithub} size="3x" /></a>
+                  <a href="https://www.linkedin.com/in/renzziadorador" style={{ color: '3d42b3' }}>
+                    <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                  </a>
                 </TabPanel>
                 <TabPanel value="2"><Skills /></TabPanel>
                 <TabPanel value="3">
-                 <Projects />
+                  <Projects />
                 </TabPanel>
-                <TabPanel value="4"><Contact/></TabPanel>
+                <TabPanel value="4"><Contact /></TabPanel>
               </TabContext>
             </div>
           </div>

@@ -109,7 +109,7 @@ export default function Contact() {
                         className='button-box'
                         style={{backgroundColor: '#3d42b3', color: "white"}}
                     >
-                        Submit Form
+                        Send Message
                     </Button>
                 </form>
                 <Snackbar

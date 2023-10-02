@@ -140,6 +140,13 @@ img {
 
   }
 
+  h1{
+    margin-top: 0;
+  }
+  h2{
+    margin-top: -0.5em;
+  }
+
   .left-container {
     align-items: center;
     justify-content: center;

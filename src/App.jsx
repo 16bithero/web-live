@@ -13,6 +13,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Contact from './Contact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -33,6 +34,8 @@ function App() {
     setValue(newValue);
   };
 
+  
+
   return (
     <>
       <div className='landing-container'>
@@ -41,7 +44,7 @@ function App() {
             <div className='body-box'>
               <TabContext value={value}>
                 <Box>
-                  <TabList TabIndicatorProps={{ style: { background: 'black' } }} onChange={handleChange} aria-label="tabs" variant="scrollable" allowScrollButtonsMobile>
+                  <TabList TabIndicatorProps={{ style: { background: 'black' } }} onChange={handleChange} aria-label="tabs" variant="scrollable" variant="fullWidth">
                     <Tab label="About" value="1" style={customFont} />
                     <Tab label="Skills" value="2" style={customFont} />
                     <Tab label="Projects" value="3" style={customFont} />
@@ -50,7 +53,7 @@ function App() {
                 </Box>
                 <TabPanel value="1">
                   <h1>Hi, I'm Renzzi.</h1>
-                  <h2>an aspiring web developer based in Toronto, Ontario. I build apps and currently learning advanced React and other frameworks.</h2>
+                  <h2>a Toronto-based Web Developer. I build apps using React combined with my skills in UX/UI. Have a crazy app idea in mind? Hit me up, and let's bring that to life! 🚀</h2>
                   <a href="https://github.com/16bithero" style={{ marginRight: '1em',color: '3d42b3'}}> <FontAwesomeIcon icon={faGithub} size="3x" /></a>
                   <a href="https://www.linkedin.com/in/renzziadorador" style={{ color: '3d42b3' }}>
                     <FontAwesomeIcon icon={faLinkedin} size="3x" />

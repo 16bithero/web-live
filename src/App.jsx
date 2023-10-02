@@ -44,7 +44,7 @@ function App() {
             <div className='body-box'>
               <TabContext value={value}>
                 <Box>
-                  <TabList TabIndicatorProps={{ style: { background: 'black' } }} onChange={handleChange} aria-label="tabs" variant="scrollable" variant="fullWidth">
+                  <TabList TabIndicatorProps={{ style: { background: 'black' } }} onChange={handleChange} aria-label="tabs" variant="fullWidth">
                     <Tab label="About" value="1" style={customFont} />
                     <Tab label="Skills" value="2" style={customFont} />
                     <Tab label="Projects" value="3" style={customFont} />
